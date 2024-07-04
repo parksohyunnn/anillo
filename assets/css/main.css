@@ -1,0 +1,290 @@
+.banner {
+    width: 100%;
+    height: 80vh;
+    background-image: url('/assets/img/main/main_main.jpg');
+    background-size: cover;
+    background-position: right;
+}
+
+/* main-section1 */
+.main-section1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    text-align: left;
+    color: #000;
+}
+
+.sectionWrap {
+    margin-top: 260px;
+}
+
+.main-title {
+    font-size: 8rem;
+    font-family: var(--fontG);
+    color: var(--black100);
+    margin-bottom: 1.2rem;
+    letter-spacing: 2px;
+}
+
+.text {}
+
+.main1-more {
+    font-weight: 500;
+    border: 1px solid var(--black500);
+    border-radius: 2px;
+    font-family: var(--fontK);
+    padding: 10px 40px;
+    box-sizing: border-box;
+    font-size: 16px;
+    margin-top: 5rem;
+    display: inline-block;
+}
+
+.main1-more:hover {
+    opacity: 0.8;
+}
+
+/* main-section2 */
+.main-section2 {}
+
+.section2Wrap {
+    display: flex;
+    margin-top: 11rem;
+    margin-bottom: 4rem;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 20px;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 12rem;
+}
+
+.product {}
+
+.main-productlink {}
+
+.main-product {
+    max-width: 100%;
+    margin-bottom: 0.8rem;
+}
+
+.main-product:hover {
+    opacity: 0.9;
+}
+
+.main-price {
+    font-weight: 500;
+    color: var(--black600);
+    margin-top: 0.3rem;
+}
+
+/* handcream */
+.handcream {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.handcream-img {
+    width: 50%;
+    height: 100vh;
+    background-image: url('/assets/img/main/m_hand.jpg');
+    background-size: cover;
+    background-position: center;
+    transition: all 0.8ms;
+}
+
+.handcream-img:hover {
+    opacity: 0.9;
+}
+
+
+.hand-description {
+    width: 50%;
+    height: 100vh;
+    background-color: #EBE4D4;
+    padding: 7rem 6rem;
+    box-sizing: border-box;
+    transition: all 0.8ms;
+}
+
+.hand-description:hover {
+    opacity: 0.9;
+}
+
+.new {
+    font-family: var(--fontM);
+    font-size: 40px;
+    font-weight: 100;
+    margin-bottom: 2rem;
+    display: inline-block;
+}
+
+.hand-title {
+    font-size: 90px;
+    line-height: 1.1;
+}
+
+.hand-text {
+    margin-top: 1.5rem;
+    margin-bottom: 6rem;
+    color: var(--black600);
+}
+
+/* main-section3 */
+.main-section3 {
+    width: 100%;
+}
+
+.m-tape {
+    width: 100%;
+}
+
+/* main-section4 */
+/* .main-section4 {
+    width: 100%;
+    height: 100vh;
+    background-color: #FCF6E4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} */
+
+.m-img {
+    width: 100%;
+}
+
+/* main-section5 */
+.main-section5 {
+    width: 100%;
+    height: 80vh;
+}
+
+.m-section5Wrap {
+    display: flex;
+    width: 100%;
+    height: 80vh;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+/* m-brandstory, m-event */
+.m-brandstory,
+.m-event {
+    max-width: 50%;
+    height: 100%;
+    display: flex;
+    background-size: cover;
+    background-position: center;
+    justify-content: left;
+    align-items: end;
+    flex: 1;
+    /* 두 요소가 동일한 비율로 공간을 차지하도록 함 */
+}
+
+.m-brandstory {
+    background-image: url(/assets/img/main/m_brandstory.jpg);
+}
+
+.m-event {
+    background-image: url(/assets/img/main/m_event.jpg);
+}
+
+.storyWrap,
+.eventWrap {
+    padding: 4.5rem;
+    box-sizing: border-box;
+
+}
+
+.main-section5more {
+    margin-top: 2rem;
+}
+
+/* main-section6 */
+.main-section6 {
+    width: 100%;
+    height: 25vh;
+    display: flex;
+
+}
+
+.section6Wrap {
+    display: flex;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.section6Title {
+    margin-right: 20rem;
+}
+
+.main-section7 {
+    width: 100%;
+    height: 70vh;
+    background-image: url(/assets/img/main/m_bs.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: right;
+    align-items: end;
+    box-sizing: border-box;
+    padding-right: 10rem;
+}
+
+.main-section7Wrap {
+    width: 40rem;
+    height: 20rem;
+    background-color: var(--bgW);
+    padding: 4rem 4.5rem;
+    box-sizing: border-box;
+}
+
+.main-section7more {
+    margin-top: 2.5rem;
+}
+
+/* main-section8 */
+.main-section8 {
+    width: 100%;
+}
+
+.section8-img {
+    min-width: 100%;
+}
+
+/* main-section9 */
+.main-section9 {
+    position: relative;
+    width: 100%;
+    height: 70vh;
+    background-image: url(/assets/img/main/m_membership.jpg);
+    /* 실제 이미지 경로로 변경 */
+    background-size: cover;
+    background-position: center;
+    transition: all 0.3s ease;
+}
+
+.main-section9::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0);
+    transition: background-color 0.3s ease;
+}
+
+.main-section9:hover::after {
+    background-color: rgba(0, 0, 0, 0.2);
+}

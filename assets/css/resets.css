@@ -1,0 +1,83 @@
+h1 {
+    font-family: var(--fontM);
+    font-size: 50px;
+    color: var(--black100);
+}
+
+h3 {
+    font-family: var(--fontN);
+    font-size: 18px;
+}
+
+.text {
+    font-family: var(--fontK);
+    font-size: 18px;
+    line-height: 1.5;
+    font-weight: 400;
+    color: var(--black100);
+}
+
+.title {
+    font-family: var(--fontN);
+    font-size: 22px;
+    line-height: 1.5;
+    font-weight: 500;
+    color: var(--black100);
+}
+
+.more {
+    font-weight: 500;
+    font-family: var(--fontK);
+    font-size: 16px;
+    display: inline-block;
+    transition: all 0.3ms;
+    /* text-decoration: underline; */
+    position: relative;
+}
+
+.more::after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 1.5px;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    bottom: -2px;
+    /* Adjust this value to move the line up or down */
+    left: 0;
+}
+
+.more:hover {
+    opacity: 0.9;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: var(--bgBlack);
+}
+
+li {
+    list-style: none;
+}
+
+img {
+    vertical-align: top;
+}
+
+#wrap {
+    width: 100%;
+}
+
+.container {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+body {
+    background-color: var(--bgW);
+}

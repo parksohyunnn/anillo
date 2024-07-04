@@ -1,0 +1,21 @@
+@font-face {
+    font-family: 'Gallient';
+    font-weight: 100;
+    font-style: normal;
+    src:
+        url('/assets/fonts/gallient-webfont.woff2') format('woff2'),
+        url('/assets/fonts/gallient-webfont.woff') format('woff'),
+        url('/assets/fonts/Gallient.ttf') format("truetype");
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Milyuna';
+    font-weight: 100;
+    font-style: normal;
+    src:
+        url('/assets/fonts/Milyuna-Regular.ttf') format("truetype");
+    font-display: swap;
+}
+
+@import url('https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css');

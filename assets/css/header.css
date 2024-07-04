@@ -1,0 +1,76 @@
+#header {
+    padding: 10px 20px;
+    box-sizing: border-box;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+
+.headerWrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 1600px;
+}
+
+.logo .main-favi {
+    height: 50px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 80px;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+nav ul li a:hover {
+    font-weight: 400;
+    color: var(--main);
+}
+
+.nav-icons {
+    display: flex;
+    gap: 15px;
+}
+
+.nav-icons a .cart {
+    width: 20px;
+    height: 20px;
+}
+
+.nav-icons a .cart:hover {
+    opacity: 0.7;
+}
+
+.nav-icons a .search {
+    width: 20px;
+    height: 20px;
+}
+
+.nav-icons a .search:hover {
+    opacity: 0.7;
+}
+
+.nav-icons a .account {
+    width: 24px;
+    height: 24px;
+}
+
+.nav-icons a .account:hover {
+    opacity: 0.7;
+}
